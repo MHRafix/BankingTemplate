@@ -93,7 +93,8 @@ userPasswordVar.addEventListener("blur", function(){
 
 
 //STEP - 03. Add Enent Listener On Submit Button 
-let submitButton = document.getElementById("submitInfo");//Get Submit Button
+function loginIntoBank(){
+    let submitButton = document.getElementById("submitInfo");//Get Submit Button
 submitButton.addEventListener("click", function(){
 
 
@@ -127,20 +128,11 @@ if (userNameVar == usrName && userEmailVar == usrEmail && userPasswordVar == usr
 
 });
 
+}
+loginIntoBank();//Call The Function Here
+
+
 //============================================
 //JavaScript Code For Log In Page Ends To Here
 //============================================
 
-
-
-
-
-//=================================================
-// JavaScript Code Main Page Strats From Here
-//=================================================
-
-
-
-//=================================================
-// JavaScript Code Main Page Ends To Here
-//=================================================
