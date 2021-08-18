@@ -65,7 +65,7 @@ withDrawBtn.addEventListener("click", function(){
    
     // Step 06. Check And Validation WithDraw Money System
     if (withDrawInputValue !== "") {
-    let withdrawMoneyRes = cnvtWithDrawMoneyValue - cnvtWithDrawInputValue ;//WithDraw Money Result
+    let withdrawMoneyRes = cnvtWithDrawMoneyValue + cnvtWithDrawInputValue ;//WithDraw Money Result
     withDrawMoney2.innerText = withdrawMoneyRes;
     //Step 05. Update Total Balance
     let totalBlncAmountTag = document.getElementById("totalBalance");//Total Balance Amount Input Assign
