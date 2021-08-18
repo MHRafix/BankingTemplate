@@ -1,0 +1,55 @@
+  /*================================================
+ site admin pannel main content css starts from here
+ ===================================================*/
+
+h1.title {
+    color: #ccc;
+}
+.sammury_box h1{
+    color: #ff6b84;
+}
+
+.sammury_box{
+	margin: 0px 30px;
+	background: white;
+	color: #222;
+	box-shadow: 1px 1px 6px #777676a6;
+	text-align: center;
+	padding: 20px 20px;
+	border-radius: 10px;
+	font-weight: 700;
+}
+
+.sammury_box:hover{
+	background: #ff6b84;
+	color: white;
+	transition: .5s;
+	transform: scale(1.1);
+}
+
+.sammury_box:hover h1{
+	color: white;
+}
+#depositeAmount,#withdrawAmount{
+	border:  1px solid #dddd;
+	outline: none;
+	border-radius: 5px;
+}
+#depositeButton,#withdrawButton{
+	color: white;
+	background: #ff6b84;
+	padding: 8px 17px;
+	border: none;
+	outline: none;
+	border-radius: 2px;
+	transition: .3s;
+}
+#depositeButton:hover,#withdrawButton:hover{
+	background: #222;
+}
+.formTitle{
+	color: #ff6b84;
+}
+  /*===========================================
+ site admin pannel main content css ends to here
+ =============================================*/

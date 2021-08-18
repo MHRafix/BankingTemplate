@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Banking System Using JavaScript</title>
+    <!-- Bootstrap Cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <!-- Link Up Custom Css Here -->
+    <link rel="stylesheet" href="assets/css/index.css">
+	
+</head>
+<body>
+	<h1 class="text-center mb-4 text-info bg-white shadow-lg py-3">WELCOME TO "ABC" BANK</h1>
+ <main class="my-5">
+            	<section class="main-content">
+            		<div class="container">
+            			<div class="page-title my-5">
+            				<h1 class="title">Balance And Transaction</h1>
+            			</div>
+            			<div class="row">
+            				<div class="col-lg-4 col-md-4 col-sm-6 mb-4">
+            					
+            						<div class="sammury_box bg-info">
+            							
+            						<h1 id="totalDeposit">$43565</h1>
+            						<h5 class="title">Total Deposit</h5>
+            					</div>
+            				</div>
+            				<div class="col-lg-4 col-md-4 col-sm-6 mb-4">
+            						<div class="sammury_box">
+                                                    
+            						<h1 id="totalBalance">$656</h1>
+            						<h5 class="title">Balance Available</h5>
+            					</div>
+            				</div>
+            				<div class="col-lg-4 col-md-4 col-sm-6 mb-4">
+            						<div class="sammury_box bg-success">
+                        
+            						<h1 id="totalWithdraw">$5645</h1>
+            						<h5 class="title">Withdraw</h5>
+            					</div>
+            				</div>
+            				<!-- <div class="col-lg-3 col-md-3 col-sm-12 mb-4">
+            						<div class="sammury_box bg-primary">
+                                                        
+            						<h1 id="">$323</h1>
+            						<h5 class="title">Today Deposit</h5>
+            					</div>
+            				</div> -->
+            			</div>
+            			<br>
+            			<br>
+            			<br>
+            			<div class="row justify-content-between">
+            				<div class="col-lg-5 col-md-6 col-sm-8 bg-info p-5 rounded-3 text-center">
+            					<h3 class="formTitle text-white">Please Deposit Now</h3><br>
+            					<input class="w-75 p-2" type="number" id="depositeAmount" placeholder="Enter Your Deposite Number" value="0" class="p-2 fs-5">
+            					<br><br><button  id="depositeButton">Deposite</button><br><br>
+            				</div>
+            				<div class="col-lg-5 col-md-6 col-sm-8 p-5 b g-white rounded-3 text-center" style="box-shadow: 1px 1px 6px #777676a6;">
+            					<h3 class="formTitle">Please Deposit Now</h3><br>
+            					<input class="w-75 p-2" type="number" id="withdrawAmount" placeholder="Enter Your Deposite Number" value="0" class="p-2 fs-5">
+            					<br><br><button  id="withdrawButton">Deposite</button><br><br>
+            				</div>
+            			</div>
+            				
+            		</div>
+            	</section>
+            </main>
+	<!-- Custom JS Link Up Here -->
+	<script src="assets/js/index.js"></script>
+</body>
+</html>
